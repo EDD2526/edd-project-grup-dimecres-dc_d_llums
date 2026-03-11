@@ -1,4 +1,4 @@
-# Projecte LLUMS COCHE
+# Projecte XXXXXXXXX
 
 >**Autors:** 
 >**Versió: **
