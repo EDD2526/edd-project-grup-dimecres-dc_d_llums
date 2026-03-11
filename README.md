@@ -1,6 +1,6 @@
-# Projecte XXXXXXXXX
+# Projecte Llums Cotxe
 
->**Autors:** 
+>**Autors:Marcel Lleonart, Eric Ruiz, Josep Leyva** 
 >**Versió: **
 
 ----------
