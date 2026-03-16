@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -620,23 +620,23 @@
     ],
     [
       "c965bb79-4e48-4b35-b9c7-2e902c1fe9a5",
-      "Sheet_a"
+      "Alimentacio"
     ],
     [
       "e1e92aea-0d85-4c86-995f-7fd094f12fbd",
-      "Sheet_b"
+      "Transceptor_CAN"
     ],
     [
       "8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e",
       "Sheet_d"
     ],
     [
-      "3103660e-98b0-4c39-8fc7-8b7259fd7e24",
-      "Sheet_e"
-    ],
-    [
       "d0e5a634-ab84-467f-83ee-5a846a1f3782",
       "Sheet_f"
+    ],
+    [
+      "3103660e-98b0-4c39-8fc7-8b7259fd7e24",
+      "Sheet_e"
     ]
   ],
   "text_variables": {}

@@ -88,7 +88,7 @@
 		(instances
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
@@ -130,7 +130,7 @@
 		(instances
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -151,7 +151,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c965bb79-4e48-4b35-b9c7-2e902c1fe9a5")
-		(property "Sheetname" "Sheet_a"
+		(property "Sheetname" "Alimentacio"
 			(at 24.13 25.9584 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_a.kicad_sch"
+		(property "Sheetfile" "Alimentacio.kicad_sch"
 			(at 24.13 62.8146 0)
 			(effects
 				(font
@@ -235,7 +235,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e1e92aea-0d85-4c86-995f-7fd094f12fbd")
-		(property "Sheetname" "Sheet_b"
+		(property "Sheetname" "Transceptor_CAN"
 			(at 91.44 25.9584 0)
 			(effects
 				(font
@@ -244,7 +244,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_b.kicad_sch"
+		(property "Sheetfile" "Transceptor_CAN.kicad_sch"
 			(at 91.44 62.8146 0)
 			(effects
 				(font
@@ -256,7 +256,7 @@
 		(instances
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
