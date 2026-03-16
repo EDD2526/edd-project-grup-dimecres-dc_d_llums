@@ -25,7 +25,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "084d3e4b-4417-484c-9f12-9be60a63d6ad")
-		(property "Sheetname" "Sheet_c"
+		(property "Sheetname" "Drivers_Motor"
 			(at 161.29 25.9584 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_c.kicad_sch"
+		(property "Sheetfile" "Drivers_motor.kicad_sch"
 			(at 161.29 62.8146 0)
 			(effects
 				(font
