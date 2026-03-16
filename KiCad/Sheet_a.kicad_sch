@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "388579b2-ede6-43df-acb1-dc5354bd9c02")
+	(paper "A4")
+	(title_block
+		(title "edd-project-grup-dimecres-dc_d_llums")
+		(date "2026-03-16")
+	)
+	(lib_symbols)
+)
