@@ -13,6 +13,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30188).
 
 
 ## Diagrama de blocs
+<img width="788" height="442" alt="image" src="https://github.com/user-attachments/assets/dea45409-d07e-40ad-a383-354cab6ba3d9" />
 
 
 ### Descripció/funcionalitat de cada bloc
