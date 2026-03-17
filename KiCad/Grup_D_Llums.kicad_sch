@@ -76,7 +76,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_e_c.kicad_sch"
+		(property "Sheetfile" "Sheet_e.kicad_sch"
 			(at 91.44 107.2646 0)
 			(effects
 				(font
@@ -118,7 +118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_d_c.kicad_sch"
+		(property "Sheetfile" "Sheet_d.kicad_sch"
 			(at 22.86 107.2646 0)
 			(effects
 				(font
@@ -202,7 +202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_f_c.kicad_sch"
+		(property "Sheetfile" "Sheet_f.kicad_sch"
 			(at 161.29 107.2646 0)
 			(effects
 				(font

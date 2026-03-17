@@ -198,12 +198,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
