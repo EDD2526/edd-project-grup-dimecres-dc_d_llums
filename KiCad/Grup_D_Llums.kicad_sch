@@ -261,6 +261,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 24.13 118.11)
+		(size 59.69 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f986a975-202a-41e3-a326-779c6cb1bf27")
+		(property "Sheetname" "Communicacio"
+			(at 24.13 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communicacio.kicad_sch"
+			(at 24.13 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Grup_D_Llums"
+				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
+					(page "8")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
