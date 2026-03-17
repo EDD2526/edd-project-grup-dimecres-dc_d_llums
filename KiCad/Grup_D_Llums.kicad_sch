@@ -67,7 +67,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3103660e-98b0-4c39-8fc7-8b7259fd7e24")
-		(property "Sheetname" "Sheet_e"
+		(property "Sheetname" "Drivers_Llums"
 			(at 91.44 70.4084 0)
 			(effects
 				(font
@@ -76,7 +76,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_e.kicad_sch"
+		(property "Sheetfile" "Drivers_Llums.kicad_sch"
 			(at 91.44 107.2646 0)
 			(effects
 				(font
