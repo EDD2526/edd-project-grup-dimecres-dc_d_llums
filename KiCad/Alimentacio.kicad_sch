@@ -1608,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54eaf1f8-95bb-4b49-ad3c-9d73bb8a86e1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -1659,6 +1659,12 @@
 			(project "Alimentacio"
 				(path "/6b132bbb-272b-40ab-bbcf-3d5da3f07086"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Grup_D_Llums"
+				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/c965bb79-4e48-4b35-b9c7-2e902c1fe9a5"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2203,7 +2209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee060e17-511c-4208-9839-23e3e2e6969f")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 64.77 42.2909 0)
 			(effects
 				(font
@@ -2258,6 +2264,12 @@
 			(project ""
 				(path "/6b132bbb-272b-40ab-bbcf-3d5da3f07086"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "Grup_D_Llums"
+				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/c965bb79-4e48-4b35-b9c7-2e902c1fe9a5"
+					(reference "C?")
 					(unit 1)
 				)
 			)

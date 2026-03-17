@@ -109,7 +109,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e")
-		(property "Sheetname" "Sheet_d"
+		(property "Sheetname" "Sensor_Llums"
 			(at 22.86 70.4084 0)
 			(effects
 				(font
@@ -118,7 +118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_d.kicad_sch"
+		(property "Sheetfile" "Sensor_LLums.kicad_sch"
 			(at 22.86 107.2646 0)
 			(effects
 				(font
