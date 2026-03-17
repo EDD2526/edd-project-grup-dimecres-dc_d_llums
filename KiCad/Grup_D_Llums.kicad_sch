@@ -193,7 +193,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d0e5a634-ab84-467f-83ee-5a846a1f3782")
-		(property "Sheetname" "Sheet_f"
+		(property "Sheetname" "Procesament"
 			(at 161.29 70.4084 0)
 			(effects
 				(font
@@ -202,7 +202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Sheet_f.kicad_sch"
+		(property "Sheetfile" "Procesament.kicad_sch"
 			(at 161.29 107.2646 0)
 			(effects
 				(font
