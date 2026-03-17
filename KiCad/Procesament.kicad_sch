@@ -1126,6 +1126,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 76.2) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fcc12c-875f-424a-a584-5c8a1ae9ad12")
+	)
+	(wire
+		(pts
 			(xy 72.39 87.63) (xy 72.39 88.9)
 		)
 		(stroke
@@ -1196,6 +1206,50 @@
 			)
 		)
 	)
+	(global_label "PGD"
+		(shape input)
+		(at 101.6 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ecdd009-417c-4e64-9083-c8e36990268a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.8048 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PGC"
+		(shape input)
+		(at 101.6 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55fa9c85-8306-4cbd-b41f-16f0f52034a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.8048 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC1"
 		(shape output)
 		(at 55.88 76.2 0)
@@ -1240,6 +1294,28 @@
 			)
 		)
 	)
+	(global_label "MCLR"
+		(shape input)
+		(at 137.16 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3fdbf88-52e9-4765-b143-a549dde60331")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.1647 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 119.38 30.48 90)
@@ -1253,6 +1329,28 @@
 		(uuid "d7f24048-dff8-4042-8659-b32785340433")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.38 23.8662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 137.16 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db4fc8f8-d278-4808-bdaf-e67de65d6965")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.7738 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,6 +1379,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00db59d2-0aec-4c37-8be2-93ea542cdd62")
+		(property "Reference" "#PWR039"
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd122fc8-ff1e-4281-8f3f-76887c94f3eb")
+		)
+		(instances
+			(project "Grup_D_Llums"
+				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/d0e5a634-ab84-467f-83ee-5a846a1f3782"
+					(reference "#PWR039")
+					(unit 1)
+				)
 			)
 		)
 	)
