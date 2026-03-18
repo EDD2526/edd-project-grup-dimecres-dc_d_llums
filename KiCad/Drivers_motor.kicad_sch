@@ -1073,12 +1073,6 @@
 		(uuid "d61ee274-ac86-4e85-876a-6bda55071426")
 	)
 	(junction
-		(at 55.88 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09e01805-69c0-40a9-84bd-0d3c93a5f3cf")
-	)
-	(junction
 		(at 55.88 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1172,16 +1166,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 66.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "275bd3df-fdc0-4f5b-a164-323ab7f773ec")
-	)
-	(wire
-		(pts
 			(xy 53.34 33.02) (xy 53.34 34.29)
 		)
 		(stroke
@@ -1189,26 +1173,6 @@
 			(type default)
 		)
 		(uuid "281501b3-6053-4a4a-b189-4216a2bb30fa")
-	)
-	(wire
-		(pts
-			(xy 55.88 34.29) (xy 55.88 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "289a6347-1a4a-47b3-9562-b7805deadfe6")
-	)
-	(wire
-		(pts
-			(xy 55.88 34.29) (xy 66.04 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c7bdd4-a82e-41f7-a1d6-796c3a1e4c3d")
 	)
 	(wire
 		(pts
@@ -1239,16 +1203,6 @@
 			(type default)
 		)
 		(uuid "52d4315e-20ea-4207-95ee-7a145a716796")
-	)
-	(wire
-		(pts
-			(xy 66.04 34.29) (xy 66.04 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6005d3c8-b9d3-44b7-865a-519b92da01c8")
 	)
 	(polyline
 		(pts
@@ -1313,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 55.88 39.37)
+			(xy 55.88 33.02) (xy 55.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1705,76 +1659,6 @@
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/084d3e4b-4417-484c-9f12-9be60a63d6ad"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 66.04 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14e2479d-e3dd-4338-a758-fbe37aeb9c66")
-		(property "Reference" "C1"
-			(at 69.85 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 69.85 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.0052 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 66.04 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "38e7544c-f60a-4e45-a1fe-4914f6e16650")
-		)
-		(pin "1"
-			(uuid "6439d800-921a-4e21-980f-f497e5c8177c")
-		)
-		(instances
-			(project "Grup_D_Llums"
-				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/084d3e4b-4417-484c-9f12-9be60a63d6ad"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2221,72 +2105,6 @@
 			(project ""
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/084d3e4b-4417-484c-9f12-9be60a63d6ad"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4412d91-403d-4b20-99df-1a39bfccb4d7")
-		(property "Reference" "#PWR03"
-			(at 66.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "030f14e4-1fdb-4263-8ec6-4314e4d56505")
-		)
-		(instances
-			(project "Grup_D_Llums"
-				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/084d3e4b-4417-484c-9f12-9be60a63d6ad"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
