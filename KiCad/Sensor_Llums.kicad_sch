@@ -647,26 +647,26 @@
 	)
 	(text "Senyal SCL es el rellotge canal bus I2C senyal de rellotge del micro,\nSDA canal I2C de comunicacio sensor i microcontrolador."
 		(exclude_from_sim no)
-		(at 13.716 65.532 0)
+		(at 26.924 75.184 0)
 		(effects
 			(font
 				(size 1.016 1.016)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "7247d136-99b8-4472-a0fe-0682dc2794cf")
 	)
-	(text "SENSOR LLUMS\n"
+	(text "SENSOR LLUMS\n\n"
 		(exclude_from_sim no)
-		(at 57.658 17.526 0)
+		(at 54.356 23.368 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
+				(size 5.08 5.08)
+				(color 0 0 0 1)
 			)
 		)
-		(uuid "bfcb5116-847b-44ae-90b5-5f3bea9f2ad1")
+		(uuid "982128cc-ca5b-409a-a6fd-a5c4bfb191eb")
 	)
 	(junction
 		(at 49.53 54.61)
@@ -781,6 +781,28 @@
 			(type default)
 		)
 		(uuid "c5c66cd6-695e-49f8-9cf2-477143deeb99")
+	)
+	(polyline
+		(pts
+			(xy 12.7 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "c90c35cc-82a0-4637-aaa0-c2decfc991a4")
+	)
+	(polyline
+		(pts
+			(xy 91.44 12.7) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "da65bf06-115e-42a2-9f93-35f5db8ca8be")
 	)
 	(wire
 		(pts
@@ -1063,7 +1085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "544c18e2-241d-41d0-bcbc-7fbddab576a7")
-		(property "Reference" "pull_SCL"
+		(property "Reference" "pull_SCL1"
 			(at 32.258 42.672 0)
 			(effects
 				(font
@@ -1117,7 +1139,7 @@
 		(instances
 			(project ""
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e"
-					(reference "pull_SCL")
+					(reference "pull_SCL1")
 					(unit 1)
 				)
 			)
@@ -1290,7 +1312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6834f73-d490-4928-8426-e52e7a31d46c")
-		(property "Reference" "pull_SDA"
+		(property "Reference" "pull_SDA1"
 			(at 50.038 33.528 0)
 			(effects
 				(font
@@ -1344,7 +1366,7 @@
 		(instances
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e"
-					(reference "pull_SDA")
+					(reference "pull_SDA1")
 					(unit 1)
 				)
 			)

@@ -925,40 +925,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "LF_LIMIT entrada GPIO del microcontrolador amb Pull-UP activat."
 		(exclude_from_sim no)
-		(at 130.302 41.656 0)
+		(at 130.048 57.15 0)
 		(effects
 			(font
 				(size 1.016 1.016)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "034c0db7-1476-4eb3-8d70-291e70e781bf")
 	)
-	(text "FINAL DE CARRERA"
-		(exclude_from_sim no)
-		(at 118.11 28.702 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "2b24b348-7be5-4e76-b57e-fae2cb4d4886")
-	)
 	(text "DRIVER MOTOR LF"
 		(exclude_from_sim no)
-		(at 54.864 23.368 0)
+		(at 56.134 22.86 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bbe1d2ef-2db2-4c2e-8590-e345a45a2f1e")
+	)
+	(text "FINAL DE CARRERA"
+		(exclude_from_sim no)
+		(at 121.666 36.83 0)
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
+				(color 0 0 0 1)
 			)
 		)
-		(uuid "a2cab76e-ac83-4c44-9ae9-1484b712e50f")
+		(uuid "cf4a775f-ae34-470e-b78e-c9071414aff7")
 	)
 	(text "Les entrades IN1 i IN2 son sortides digitals GPIO del microcontrolador. \nLa entrada EnA es conecta a un pin PWM del microntrolador per habilitar el H-bridge.\nSense_A i Sense_B seveixen per mesurar el corrent(no es necesari)."
 		(exclude_from_sim no)
@@ -966,6 +1066,7 @@
 		(effects
 			(font
 				(size 1.016 1.016)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
@@ -976,6 +1077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09e01805-69c0-40a9-84bd-0d3c93a5f3cf")
+	)
+	(junction
+		(at 55.88 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "148cd09c-91bb-4f1d-8f14-2b7c3ce7186e")
 	)
 	(junction
 		(at 53.34 34.29)
@@ -1005,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 38.1) (xy 102.87 40.64)
+			(xy 106.68 45.72) (xy 106.68 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1032,6 +1139,16 @@
 			(type default)
 		)
 		(uuid "0d93ceef-5124-4cb0-b947-dfa96ad6f639")
+	)
+	(wire
+		(pts
+			(xy 55.88 39.37) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10421fd5-9d87-44dc-82e7-b378bac25d87")
 	)
 	(wire
 		(pts
@@ -1133,6 +1250,17 @@
 		)
 		(uuid "6005d3c8-b9d3-44b7-865a-519b92da01c8")
 	)
+	(polyline
+		(pts
+			(xy 158.75 12.7) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "7550b6f0-aa16-4fa3-a240-f4de4cee1683")
+	)
 	(wire
 		(pts
 			(xy 68.58 60.96) (xy 69.85 60.96)
@@ -1185,7 +1313,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 55.88 48.26)
+			(xy 55.88 34.29) (xy 55.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1195,13 +1323,24 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 38.1) (xy 102.87 38.1)
+			(xy 114.3 45.72) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a1d96ed8-3531-4193-baca-3bae155bad29")
+	)
+	(polyline
+		(pts
+			(xy 12.7 99.06) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(uuid "a500bbd8-4915-4b4f-a86f-d505379cc0a4")
 	)
 	(wire
 		(pts
@@ -1285,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 38.1) (xy 129.54 38.1)
+			(xy 124.46 45.72) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1466,7 @@
 	)
 	(global_label "LF_LIMIT"
 		(shape input)
-		(at 129.54 38.1 0)
+		(at 133.35 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1337,7 +1476,7 @@
 		)
 		(uuid "5e4ffe2a-f8e3-497d-a52a-31bf3baff445")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.2662 38.1 0)
+			(at 144.0762 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1782,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 115.57 38.1 0)
+		(at 119.38 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1652,7 +1791,7 @@
 		(fields_autoplaced yes)
 		(uuid "35e96aa3-a3de-4461-8be7-75e92e61f4d9")
 		(property "Reference" "SW1"
-			(at 115.57 31.75 0)
+			(at 119.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1799,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 115.57 34.29 0)
+			(at 119.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 38.1 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 38.1 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1825,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 115.57 38.1 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,6 +2161,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1c4f0a0-601f-4d8d-8d6f-3e04907fe4e7")
+		(property "Reference" "#FLG02"
+			(at 57.785 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 56.134 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956380c0-94de-4f13-aa09-75833aa1864b")
+		)
+		(instances
+			(project ""
+				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd/084d3e4b-4417-484c-9f12-9be60a63d6ad"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 44.45 0)
 		(unit 1)
@@ -2089,7 +2294,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 40.64 0)
+		(at 106.68 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2098,7 +2303,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a1a889-e2f6-4041-a362-8497bed688d2")
 		(property "Reference" "#PWR06"
-			(at 102.87 46.99 0)
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2312,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 45.72 0)
+			(at 106.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 40.64 0)
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 40.64 0)
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 40.64 0)
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
