@@ -5,6 +5,7 @@
 	(uuid "2a85c69b-f986-40b6-8069-fd42cd7ee334")
 	(paper "A4")
 	(title_block
+		(title "Procesament")
 		(date "2026-03-16")
 	)
 	(lib_symbols
