@@ -615,20 +615,12 @@
       "Root"
     ],
     [
-      "084d3e4b-4417-484c-9f12-9be60a63d6ad",
-      "Drivers_Motor"
-    ],
-    [
       "c965bb79-4e48-4b35-b9c7-2e902c1fe9a5",
-      "Alimentacio"
+      "POTENCIA"
     ],
     [
       "e1e92aea-0d85-4c86-995f-7fd094f12fbd",
       "Transceptor_CAN"
-    ],
-    [
-      "8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e",
-      "Sensor_Llums"
     ],
     [
       "d0e5a634-ab84-467f-83ee-5a846a1f3782",
@@ -636,7 +628,7 @@
     ],
     [
       "3103660e-98b0-4c39-8fc7-8b7259fd7e24",
-      "Drivers_Llums"
+      "LLUMS"
     ],
     [
       "f986a975-202a-41e3-a326-779c6cb1bf27",

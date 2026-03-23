@@ -9,47 +9,25 @@
 		(date "2026-03-16")
 	)
 	(lib_symbols)
-	(sheet
-		(at 161.29 26.67)
-		(size 60.96 35.56)
+	(text "LLUMS\n"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "084d3e4b-4417-484c-9f12-9be60a63d6ad")
-		(property "Sheetname" "Drivers_Motor"
-			(at 161.29 25.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(at 120.396 89.662 0)
+		(effects
+			(font
+				(size 3.81 3.81)
 			)
 		)
-		(property "Sheetfile" "Drivers_motor.kicad_sch"
-			(at 161.29 62.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+		(uuid "3ec033fa-85e9-4640-a5a7-2fab31d51155")
+	)
+	(text "POTENCIA"
+		(exclude_from_sim no)
+		(at 51.308 45.212 0)
+		(effects
+			(font
+				(size 3.81 3.81)
 			)
 		)
-		(instances
-			(project "Grup_D_Llums"
-				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "2")
-				)
-			)
-		)
+		(uuid "650f3668-2e6d-4f2b-bb69-30700e17700f")
 	)
 	(sheet
 		(at 91.44 71.12)
@@ -67,7 +45,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3103660e-98b0-4c39-8fc7-8b7259fd7e24")
-		(property "Sheetname" "Drivers_Llums"
+		(property "Sheetname" "LLUMS"
 			(at 91.44 70.4084 0)
 			(effects
 				(font
@@ -76,7 +54,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Drivers_Llums.kicad_sch"
+		(property "Sheetfile" "LLUMS.kicad_sch"
 			(at 91.44 107.2646 0)
 			(effects
 				(font
@@ -89,48 +67,6 @@
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 22.86 71.12)
-		(size 60.96 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8bdb4d91-b6d7-45e8-b65e-8d615eba0b9e")
-		(property "Sheetname" "Sensor_Llums"
-			(at 22.86 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sensor_LLums.kicad_sch"
-			(at 22.86 107.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Grup_D_Llums"
-				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "5")
 				)
 			)
 		)
@@ -151,7 +87,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c965bb79-4e48-4b35-b9c7-2e902c1fe9a5")
-		(property "Sheetname" "Alimentacio"
+		(property "Sheetname" "POTENCIA"
 			(at 24.13 25.9584 0)
 			(effects
 				(font
@@ -160,7 +96,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Alimentacio.kicad_sch"
+		(property "Sheetfile" "POTENCIA.kicad_sch"
 			(at 24.13 62.8146 0)
 			(effects
 				(font
@@ -262,7 +198,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 118.11)
+		(at 22.86 72.39)
 		(size 59.69 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -278,7 +214,7 @@
 		)
 		(uuid "f986a975-202a-41e3-a326-779c6cb1bf27")
 		(property "Sheetname" "Communicacio"
-			(at 24.13 117.3984 0)
+			(at 22.86 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +223,7 @@
 			)
 		)
 		(property "Sheetfile" "Communicacio.kicad_sch"
-			(at 24.13 152.9846 0)
+			(at 22.86 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
