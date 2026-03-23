@@ -2127,7 +2127,7 @@
 		)
 		(uuid "35961db9-3584-4117-978b-3137c13c40b8")
 	)
-	(text "Motor-"
+	(text "Motor2-"
 		(exclude_from_sim no)
 		(at 78.232 150.368 0)
 		(effects
@@ -2148,7 +2148,7 @@
 		)
 		(uuid "71f51730-4083-44d8-bb4f-732caa40eb68")
 	)
-	(text "Motor+"
+	(text "Motor1+"
 		(exclude_from_sim no)
 		(at 77.978 139.954 0)
 		(effects
@@ -2158,7 +2158,7 @@
 		)
 		(uuid "7403ec5d-e535-4b34-98fc-50d44a152fac")
 	)
-	(text "Motor+"
+	(text "Motor2+"
 		(exclude_from_sim no)
 		(at 78.232 147.574 0)
 		(effects
@@ -2179,7 +2179,7 @@
 		)
 		(uuid "d38eeac7-0e78-41c7-9133-b36597f5375e")
 	)
-	(text "Motor-"
+	(text "Motor1-"
 		(exclude_from_sim no)
 		(at 77.978 142.748 0)
 		(effects
