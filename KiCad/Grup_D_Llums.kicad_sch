@@ -9,9 +9,19 @@
 		(date "2026-03-16")
 	)
 	(lib_symbols)
+	(text "PROCESSAMENT\n"
+		(exclude_from_sim no)
+		(at 121.92 42.672 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "1662b7f0-6676-4261-8c5d-fc7b0a0946ee")
+	)
 	(text "LLUMS\n"
 		(exclude_from_sim no)
-		(at 120.396 89.662 0)
+		(at 51.816 93.472 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -30,7 +40,7 @@
 		(uuid "650f3668-2e6d-4f2b-bb69-30700e17700f")
 	)
 	(sheet
-		(at 91.44 71.12)
+		(at 22.86 74.93)
 		(size 60.96 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46,7 +56,7 @@
 		)
 		(uuid "3103660e-98b0-4c39-8fc7-8b7259fd7e24")
 		(property "Sheetname" "LLUMS"
-			(at 91.44 70.4084 0)
+			(at 22.86 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "LLUMS.kicad_sch"
-			(at 91.44 107.2646 0)
+			(at 22.86 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,48 +124,6 @@
 		)
 	)
 	(sheet
-		(at 161.29 71.12)
-		(size 60.96 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d0e5a634-ab84-467f-83ee-5a846a1f3782")
-		(property "Sheetname" "Procesament"
-			(at 161.29 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Procesament.kicad_sch"
-			(at 161.29 107.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Grup_D_Llums"
-				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 91.44 26.67)
 		(size 60.96 35.56)
 		(exclude_from_sim no)
@@ -193,48 +161,6 @@
 			(project "Grup_D_Llums"
 				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 22.86 72.39)
-		(size 59.69 34.29)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f986a975-202a-41e3-a326-779c6cb1bf27")
-		(property "Sheetname" "Communicacio"
-			(at 22.86 71.6784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Communicacio.kicad_sch"
-			(at 22.86 107.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Grup_D_Llums"
-				(path "/88ef36bc-9439-47f2-adb5-e1da6bb8c9dd"
-					(page "8")
 				)
 			)
 		)

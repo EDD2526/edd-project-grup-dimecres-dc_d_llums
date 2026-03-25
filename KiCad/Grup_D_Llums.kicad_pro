@@ -623,16 +623,8 @@
       "Transceptor_CAN"
     ],
     [
-      "d0e5a634-ab84-467f-83ee-5a846a1f3782",
-      "Procesament"
-    ],
-    [
       "3103660e-98b0-4c39-8fc7-8b7259fd7e24",
       "LLUMS"
-    ],
-    [
-      "f986a975-202a-41e3-a326-779c6cb1bf27",
-      "Communicacio"
     ]
   ],
   "text_variables": {}
