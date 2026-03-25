@@ -5,7 +5,7 @@
 	(uuid "8b04da9c-1e65-45d1-ab8c-13afaa2702a9")
 	(paper "A4")
 	(title_block
-		(title "Transceptor_CAN")
+		(title "Procesament")
 		(date "2026-03-16")
 	)
 	(lib_symbols
@@ -6205,10 +6205,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "827ae10f-0285-4bbb-9ecb-142e1aecfd30")
 		(property "Reference" "C14"
-			(at 113.03 95.2499 0)
+			(at 105.41 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6216,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 113.03 97.7899 0)
+			(at 109.728 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7173,7 @@
 		(dnp no)
 		(uuid "dcdc409e-a14c-48bf-8865-7dc899712b15")
 		(property "Reference" "C8"
-			(at 107.188 93.218 0)
+			(at 100.076 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7183,7 +7182,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 102.87 90.678 0)
+			(at 99.06 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7309,7 +7308,7 @@
 		(dnp no)
 		(uuid "e53dc086-312b-4056-a32b-cd88ccb18bdc")
 		(property "Reference" "C5"
-			(at 100.838 93.218 0)
+			(at 93.472 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7317,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 96.52 90.678 0)
+			(at 92.71 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
