@@ -3474,7 +3474,7 @@
 			)
 		)
 	)
-	(global_label "Vbat"
+	(global_label "VBAT"
 		(shape input)
 		(at 58.42 113.03 90)
 		(fields_autoplaced yes)
@@ -3486,7 +3486,7 @@
 		)
 		(uuid "cd8db029-898e-4977-99f0-8170305d1263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 105.9325 90)
+			(at 58.42 105.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 92.71 140.97 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 81.28 53.34 0)
 			(effects
 				(font
@@ -4169,7 +4169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 72.39 158.75 0)
 			(effects
 				(font
@@ -4328,7 +4328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -4559,7 +4559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 71.12 133.35 0)
 			(effects
 				(font
@@ -4645,7 +4645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 198.12 130.81 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -4854,7 +4854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 76.2 133.35 0)
 			(effects
 				(font
@@ -4941,7 +4941,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 76.2 158.75 0)
 			(effects
 				(font
@@ -5161,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.15 62.23 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 52.07 44.45 0)
 			(effects
 				(font
@@ -5374,7 +5374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 163.83 0)
 			(effects
 				(font
@@ -5648,7 +5648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 92.71 148.59 0)
 			(effects
 				(font
@@ -5718,7 +5718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 147.0152 66.04 0)
 			(effects
 				(font
@@ -5787,7 +5787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 220.726 123.444 90)
 			(effects
 				(font
@@ -6171,7 +6171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 85.09 133.35 0)
 			(effects
 				(font
@@ -6391,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 81.28 133.35 0)
 			(effects
 				(font
@@ -6622,7 +6622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 80.01 158.75 0)
 			(effects
 				(font
@@ -6842,7 +6842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 96.2152 60.96 0)
 			(effects
 				(font
@@ -6918,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.67 62.23 0)
 			(effects
 				(font

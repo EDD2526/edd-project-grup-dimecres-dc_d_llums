@@ -2387,7 +2387,29 @@
 			)
 		)
 	)
-	(global_label "Vbat"
+	(global_label "VBAT"
+		(shape input)
+		(at 121.92 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24d8d1fd-8ffa-493d-9663-a1e5a8ec2175")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 120.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
 		(shape input)
 		(at 74.93 137.16 90)
 		(fields_autoplaced yes)
@@ -2399,7 +2421,7 @@
 		)
 		(uuid "26958b29-f19d-49bb-8176-6061859e839f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 130.0625 90)
+			(at 74.93 129.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,6 +2497,28 @@
 			)
 		)
 	)
+	(global_label "VBAT"
+		(shape input)
+		(at 39.37 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f1ebef8-eace-473c-afe1-dba62a8f6cdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 34.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TURN_LEFT_CTRL"
 		(shape input)
 		(at 107.95 54.61 180)
@@ -2497,29 +2541,7 @@
 			)
 		)
 	)
-	(global_label "Vbat"
-		(shape input)
-		(at 39.37 138.43 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e8776d1-2122-4be6-b85f-67121c4affa2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 131.3325 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat"
+	(global_label "VBAT"
 		(shape input)
 		(at 161.29 41.91 90)
 		(fields_autoplaced yes)
@@ -2529,9 +2551,31 @@
 			)
 			(justify left)
 		)
-		(uuid "675028a6-b31d-4836-b0f7-0182dfef2fdf")
+		(uuid "5a78cfa9-93d2-4a4a-880d-e972e68baf01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 34.8125 90)
+			(at 161.29 34.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 162.56 129.54 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67409b77-f68c-4aee-8d31-cd8e79aff497")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 122.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,6 +2651,50 @@
 			)
 		)
 	)
+	(global_label "VBAT"
+		(shape input)
+		(at 39.37 138.43 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91b5ad6e-0396-42bb-a642-cbede0cd44a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 131.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 74.93 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9343d3e0-afa5-46d1-b37a-1ea468551560")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.93 34.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 248.92 46.99 90)
@@ -2620,28 +2708,6 @@
 		(uuid "97097228-468b-4757-8828-239a1989859f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 248.92 40.3762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat"
-		(shape input)
-		(at 119.38 40.64 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a608342-ada2-4120-ab83-fe34288061c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 33.5425 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,28 +2735,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat"
-		(shape input)
-		(at 39.37 41.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd8cfcc6-5310-486e-8eaf-c3505abcbc8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 34.8125 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2761,9 +2805,9 @@
 			)
 		)
 	)
-	(global_label "Vbat"
+	(global_label "VBAT"
 		(shape input)
-		(at 74.93 41.91 90)
+		(at 119.38 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2771,53 +2815,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f050e7af-a67a-488f-b759-b95377181910")
+		(uuid "ec72de8d-e94a-4df6-8da1-198f417c672f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 34.8125 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat"
-		(shape input)
-		(at 121.92 128.27 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5803d92-e811-48ca-a7f8-27d7e6963ccd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 121.1725 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat"
-		(shape input)
-		(at 162.56 129.54 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff80b7e0-395a-420c-a612-5310830683d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.56 122.4425 90)
+			(at 119.38 33.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 121.158 46.99 90)
 			(effects
 				(font
@@ -2925,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.416 65.024 90)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.416 77.724 90)
 			(effects
 				(font
@@ -3065,7 +3065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 76.708 143.51 90)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 41.148 144.78 90)
 			(effects
 				(font
@@ -3545,7 +3545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 61.976 65.024 90)
 			(effects
 				(font
@@ -3614,7 +3614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 224.536 52.324 90)
 			(effects
 				(font
@@ -3952,7 +3952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 76.708 48.26 90)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 228.346 52.324 90)
 			(effects
 				(font
@@ -4373,7 +4373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.966 63.754 90)
 			(effects
 				(font
@@ -4575,7 +4575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.876 165.354 90)
 			(effects
 				(font
@@ -4797,7 +4797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 41.148 48.26 90)
 			(effects
 				(font
@@ -4933,7 +4933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 163.068 48.26 90)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 61.976 77.724 90)
 			(effects
 				(font
@@ -5139,7 +5139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.236 151.384 90)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 237.1852 58.42 0)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 164.338 135.89 90)
 			(effects
 				(font
@@ -5701,7 +5701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 123.698 134.62 90)
 			(effects
 				(font
@@ -5771,7 +5771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 65.786 160.274 90)
 			(effects
 				(font
@@ -5841,7 +5841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 65.786 172.974 90)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.876 152.654 90)
 			(effects
 				(font
@@ -6183,7 +6183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 30.226 174.244 90)
 			(effects
 				(font
@@ -6252,7 +6252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 220.726 59.944 90)
 			(effects
 				(font
@@ -6464,7 +6464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.236 164.084 90)
 			(effects
 				(font
@@ -6812,7 +6812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 30.226 161.544 90)
 			(effects
 				(font
@@ -6882,7 +6882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.876 63.754 90)
 			(effects
 				(font
@@ -6952,7 +6952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 150.876 76.454 90)
 			(effects
 				(font
@@ -7022,7 +7022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.966 76.454 90)
 			(effects
 				(font
