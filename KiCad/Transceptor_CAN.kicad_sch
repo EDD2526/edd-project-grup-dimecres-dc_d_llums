@@ -7029,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
 			(at 205.74 134.62 0)
 			(effects
 				(font
