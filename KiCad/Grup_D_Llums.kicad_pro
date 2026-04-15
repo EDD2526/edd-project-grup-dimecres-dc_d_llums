@@ -501,6 +501,13 @@
         "wire_width": 6
       },
       {
+        "name": "V5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5
+      },
+      {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -508,7 +515,7 @@
         "microvia_drill": 0.1,
         "name": "VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -524,6 +531,10 @@
       {
         "netclass": "VBAT",
         "pattern": "VBAT"
+      },
+      {
+        "netclass": "V5",
+        "pattern": "5VOLTS"
       }
     ]
   },
