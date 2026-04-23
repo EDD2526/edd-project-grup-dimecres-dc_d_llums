@@ -197,13 +197,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "01ed5fb1-f2e6-4b01-bb92-c7508dbfc0b2")
-		(at 76.8 135.45 180)
+		(at 202.65 99.8 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "cca43c1c-6283-42ad-ab59-76aed3cf5d5d")
+			(uuid "9aa94e71-96f3-44fd-be82-59d7c2fabe6c")
 			(effects
 				(font
 					(size 1 1)
@@ -214,7 +214,7 @@
 		(property "Value" "10 uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "de81a53b-78ba-46c9-bacb-2e98ce3c2e03")
+			(uuid "85fb40ee-b9af-47c9-83a1-ae9c5b54a9e2")
 			(effects
 				(font
 					(size 1 1)
@@ -226,7 +226,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7529a67c-c2a4-4d4b-a879-4c0f57046e80")
+			(uuid "0062dd99-c7bd-4867-85bf-c4beb11ae998")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "723c6655-6967-46f9-8559-08e606ee959c")
+			(uuid "70c4a085-1974-4ad8-b272-0e78cd958470")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,13 +2112,13 @@
 	(footprint "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Fastron_07M"
 		(layer "F.Cu")
 		(uuid "1c37e8ce-1a21-491e-902f-61b09f11d224")
-		(at 65.5 154.55)
+		(at 191.35 118.9)
 		(descr "Inductor, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=12.7mm, Fastron, 07M, http://www.fastrongroup.com/image-show/37/07M.pdf?type=Complete-DataSheet&productType=series")
 		(tags "Inductor Radial series Radial pin pitch 5.00mm  diameter 10mm height 12.7mm Fastron 07M")
 		(property "Reference" "L1"
 			(at 2.5 -6.25 0)
 			(layer "F.SilkS")
-			(uuid "84dc2eb9-54c2-4a0b-8cdf-e2960fc92cc3")
+			(uuid "66262e35-8111-4c6a-8a75-75695c5d92be")
 			(effects
 				(font
 					(size 1 1)
@@ -2129,7 +2129,7 @@
 		(property "Value" "33 U"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
-			(uuid "85103e42-a4b9-4e4f-9047-d1f3717c7f82")
+			(uuid "60597845-32e1-4cd5-be5e-bbac3837b6f4")
 			(effects
 				(font
 					(size 1 1)
@@ -2141,7 +2141,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1663b53-ff28-4ad4-b191-578a7906e916")
+			(uuid "01a5831c-507d-4701-a26b-d710912d3147")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2153,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "145f8f18-7179-4b06-955c-0f9abc36dcce")
+			(uuid "ca4ccf73-cb8e-460f-ac99-3798f7ff6f97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,13 +2754,13 @@
 	(footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "1e29e055-b6f6-456a-8db1-df630c148112")
-		(at 56.7 139 90)
+		(at 182.55 103.35 90)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=16mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 10mm height 16mm Electrolytic Capacitor")
 		(property "Reference" "C9"
 			(at 2.5 -6.25 90)
 			(layer "F.SilkS")
-			(uuid "708a4e6d-31ce-4bc3-b127-1f8e1ccf74b9")
+			(uuid "2e03ae32-c717-4071-ad71-729fdfa6ca95")
 			(effects
 				(font
 					(size 1 1)
@@ -2771,7 +2771,7 @@
 		(property "Value" "680 uF"
 			(at 2.5 6.25 90)
 			(layer "F.Fab")
-			(uuid "cee28914-5d2b-44b9-93bb-81f3774a2b09")
+			(uuid "f9d7daf3-c7fc-4efb-9a0a-db7ac2ae97d0")
 			(effects
 				(font
 					(size 1 1)
@@ -2783,7 +2783,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dacd342-4e93-48a6-b456-fade3af8ef49")
+			(uuid "51c46cb3-a258-46e5-bef7-2c9913feca47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2795,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc75c187-62b4-49a7-8e64-656eb8c45aee")
+			(uuid "e9297494-6ba6-449e-a844-ecf5ed5189c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,13 +8174,13 @@
 	(footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "431fafa5-4f63-4ebf-8842-fa6068b4766c")
-		(at 59.17 146 180)
+		(at 185.02 110.35 180)
 		(descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=9.5*5.2mm^2, http://www.diodes.com/_files/packages/DO-201AD.pdf")
 		(tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
 		(property "Reference" "D3"
 			(at 7.62 -3.72 0)
 			(layer "F.SilkS")
-			(uuid "1f7e4ed4-51ec-4917-9fd8-06c0cbf5e3ee")
+			(uuid "aaa40c2c-3a6f-45a2-8f3f-8317d2cea80d")
 			(effects
 				(font
 					(size 1 1)
@@ -8191,7 +8191,7 @@
 		(property "Value" "D"
 			(at 7.62 3.72 0)
 			(layer "F.Fab")
-			(uuid "ad324719-1006-4d0c-9df4-fbe37eff861c")
+			(uuid "00e185c7-4f31-4938-a571-7853650935bc")
 			(effects
 				(font
 					(size 1 1)
@@ -8203,7 +8203,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6db250c0-9513-458c-879e-6c3a34086683")
+			(uuid "3386fb40-e6bd-4634-89d3-cef6d5d71752")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8215,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c6f4ab1-ba89-4ca3-954d-f04bd698c683")
+			(uuid "9c59dd0c-8a11-41bc-9c33-bedcaad5b1bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9439,13 +9439,13 @@
 	(footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "4d2f1dc4-f4f1-4027-ad9a-7368ae37c65f")
-		(at 85.44 135.5)
+		(at 211.29 99.85)
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "U7"
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
-			(uuid "0599a207-0a41-40b4-8721-646e704eec86")
+			(uuid "2d0f43fe-18e9-46f4-a6ca-eeb9535008be")
 			(effects
 				(font
 					(size 1 1)
@@ -9456,7 +9456,7 @@
 		(property "Value" "LM1117DT-3.3"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "7257a105-f24b-4a8e-b9c3-37dd13d55b57")
+			(uuid "6376af4a-91fa-47d5-826f-1898568c4a96")
 			(effects
 				(font
 					(size 1 1)
@@ -9468,7 +9468,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20ecf8a9-0e25-48fe-9d37-72057c9160d6")
+			(uuid "4470914e-028a-41fe-927c-bface5c7527a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9480,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05767269-240d-4489-8bb6-f148f6f64d04")
+			(uuid "d2517d92-65b0-4e58-a34b-1f5c89620a73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9924,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "55090bb1-552c-4675-b0d5-9adc9f44aee5")
-		(at 32.72 146)
+		(at 158.57 110.35)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
@@ -12811,13 +12811,13 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3"
 		(layer "F.Cu")
 		(uuid "758c7581-0a0e-4a3e-b1f8-95752ca0d2ae")
-		(at 67.85 138.45 90)
+		(at 193.7 102.8 90)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U2"
 			(at 0 -6.65 90)
 			(layer "F.SilkS")
-			(uuid "c6650651-c596-4a46-8068-cf095974dea0")
+			(uuid "2922e5c0-041b-494f-b28b-bc1b9a9e5131")
 			(effects
 				(font
 					(size 1 1)
@@ -12828,7 +12828,7 @@
 		(property "Value" "LM2596S-5"
 			(at 0 6.65 90)
 			(layer "F.Fab")
-			(uuid "52873bd5-700e-49f3-a25d-e6a95208e4f1")
+			(uuid "be64819b-a192-4b02-8b2f-002fa0ac7088")
 			(effects
 				(font
 					(size 1 1)
@@ -12840,7 +12840,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0dc138c-575f-4f6f-a4a6-510ff5e70f77")
+			(uuid "5423803f-9e31-4d5d-90ba-1bfd30908e2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +12852,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d04ec178-ee4e-4ce2-8461-046f0c980c96")
+			(uuid "4498a4cd-f928-4886-9bbe-9d444d641ecf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15227,13 +15227,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "976a3dc2-a034-4f8d-8728-105390a1ec75")
-		(at 75.3 154.7)
+		(at 201.15 119.05)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "64b6c4f3-1216-47ec-83b3-0834d64ea082")
+			(uuid "be551712-3358-41ad-a9b4-8a889941aab0")
 			(effects
 				(font
 					(size 1 1)
@@ -15244,7 +15244,7 @@
 		(property "Value" "10 uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "95a79923-7444-4cdd-994e-23166c12feb6")
+			(uuid "5986b4e4-3002-42a6-a5cc-3373649e9b94")
 			(effects
 				(font
 					(size 1 1)
@@ -15256,7 +15256,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2ff642b-6a70-4e63-b036-3ec85f845cde")
+			(uuid "7f1e3326-8a79-4a75-8501-33144c87619f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15268,7 +15268,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb222b05-ac2b-47cb-b8eb-7ad4a6f80f7c")
+			(uuid "1c57b7e7-e051-4964-8794-61a9075ea81a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15368,13 +15368,13 @@
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "9928150c-28f9-4197-bf19-3ee3b46edb39")
-		(at 80.2 145.65)
+		(at 206.05 110)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C1"
 			(at 1.75 -5.25 0)
 			(layer "F.SilkS")
-			(uuid "51d4f816-95da-48c7-9a70-fa237bb0f64b")
+			(uuid "62eebad0-e95e-4cce-92ce-9c72334ef3d7")
 			(effects
 				(font
 					(size 1 1)
@@ -15385,7 +15385,7 @@
 		(property "Value" "220 uF"
 			(at 1.75 5.25 0)
 			(layer "F.Fab")
-			(uuid "4ae969b8-52eb-4216-8ba5-599c41e0475a")
+			(uuid "3d0fde54-ebbd-44fd-a6dd-d7fd075f8f96")
 			(effects
 				(font
 					(size 1 1)
@@ -15397,7 +15397,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18937fc9-8a86-4d2a-ade3-103f982371d9")
+			(uuid "0bf4258a-eed5-4169-b8dd-a8da7db0553c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15409,7 +15409,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31be11ef-743c-47bf-87a1-b577a2e2fba8")
+			(uuid "a294fe9b-f415-486b-80ad-fded719d199b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26498,13 +26498,13 @@
 	(footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f294e2b8-b0d8-4283-a9e1-81348d8e769f")
-		(at 59.27 154.4 180)
+		(at 185.12 118.75 180)
 		(descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=9.5*5.2mm^2, http://www.diodes.com/_files/packages/DO-201AD.pdf")
 		(tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
 		(property "Reference" "D4"
 			(at 7.62 -3.72 0)
 			(layer "F.SilkS")
-			(uuid "47670821-c84c-4afb-8e80-6bf6602ad37b")
+			(uuid "34998a73-fbda-49fc-88a5-2d923b02dd91")
 			(effects
 				(font
 					(size 1 1)
@@ -26515,7 +26515,7 @@
 		(property "Value" "1N5822"
 			(at 7.62 3.72 0)
 			(layer "F.Fab")
-			(uuid "70aca60f-5e7d-403b-9806-d0421d1c5600")
+			(uuid "ea863681-d374-4734-85bf-7509d301975c")
 			(effects
 				(font
 					(size 1 1)
@@ -26527,7 +26527,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb1d66a7-eba6-4d71-8db8-87409ef8ab73")
+			(uuid "657011ff-2850-4817-aeef-8b79f81997e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26539,7 +26539,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db464a79-79dc-48e4-9f92-85343f4b1ebc")
+			(uuid "3a363456-77c7-45c2-a2c0-634980fd2eb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26757,13 +26757,13 @@
 	(footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f65e6053-cca6-4699-b053-b4087ddb91b5")
-		(at 65.68 163.1)
+		(at 191.53 127.45)
 		(descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=9.5*5.2mm^2, http://www.diodes.com/_files/packages/DO-201AD.pdf")
 		(tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
 		(property "Reference" "D1"
 			(at 7.62 -3.72 0)
 			(layer "F.SilkS")
-			(uuid "4a7dd66f-29ff-4acb-826f-00a57fbc3f51")
+			(uuid "99f7ce10-bca9-4346-af9e-686b126aa067")
 			(effects
 				(font
 					(size 1 1)
@@ -26774,7 +26774,7 @@
 		(property "Value" "1N5822"
 			(at 7.62 3.72 0)
 			(layer "F.Fab")
-			(uuid "4fe70448-ea66-4a57-9f60-ab81a1493462")
+			(uuid "aaa084a1-e8f3-4630-b6ea-e4cb501432c4")
 			(effects
 				(font
 					(size 1 1)
@@ -26786,7 +26786,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a6dc363-9e68-497c-8ec6-3c394f2e5475")
+			(uuid "be86ab23-4f1d-4a64-9b93-c0a7535a1dcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26798,7 +26798,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7538865b-e44b-4b06-b9f0-5e542b5d7efd")
+			(uuid "fcc15f9c-cf4b-4cf5-abe6-72ef0fe2ba56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28166,193 +28166,205 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 150.4 50.95)
+		(end 252.4 129.8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(net 10)
+		(uuid "5324130c-b378-42ae-874c-934861a123ae")
+	)
 	(segment
-		(start 69.55 153.6)
-		(end 69.55 146.1)
+		(start 195.4 117.95)
+		(end 195.4 110.45)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "14d0aa97-e1fa-451a-97fa-9bcaf43dc45f")
 	)
 	(segment
-		(start 80.4 137.78)
-		(end 80.4 145.45)
+		(start 206.25 102.13)
+		(end 206.25 109.8)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "2396f4a1-9e87-418a-92be-0655cd8e813f")
 	)
 	(segment
-		(start 74.35 151.5)
-		(end 80.2 145.65)
+		(start 200.2 115.85)
+		(end 206.05 110)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "286be6a6-2cca-42ba-a08e-5d3eb11502fe")
 	)
 	(segment
-		(start 74.35 154.7)
-		(end 74.35 151.5)
+		(start 200.2 119.05)
+		(end 200.2 115.85)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "6c445d3a-ad42-4e40-aa4b-97d5fd668c26")
 	)
 	(segment
-		(start 80.4 145.45)
-		(end 80.2 145.65)
+		(start 206.25 109.8)
+		(end 206.05 110)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "d26b09f4-d3f5-469c-b4e8-8cc5b29ab70c")
 	)
 	(segment
-		(start 70.5 154.55)
-		(end 69.55 153.6)
+		(start 196.35 118.9)
+		(end 195.4 117.95)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "e487157d-818b-423d-9224-64efcb464f17")
 	)
 	(segment
-		(start 74.2 154.55)
-		(end 74.35 154.7)
+		(start 200.05 118.9)
+		(end 200.2 119.05)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "efac67a0-acce-4b99-8db7-e3f2bb563131")
 	)
 	(segment
-		(start 70.5 154.55)
-		(end 74.2 154.55)
+		(start 196.35 118.9)
+		(end 200.05 118.9)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "feacde98-e338-4248-b81d-4f90af74f17c")
 	)
 	(segment
-		(start 80.4 135.5)
-		(end 86.7 135.5)
+		(start 206.25 99.85)
+		(end 212.55 99.85)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "724554e6-4d6c-419b-8bd9-22d627938482")
 	)
 	(segment
-		(start 80.4 135.5)
-		(end 77.8 135.5)
+		(start 206.25 99.85)
+		(end 203.65 99.85)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "7b6e63ec-db13-4232-8ebe-b43b3ec675fd")
 	)
 	(segment
-		(start 77.8 135.5)
-		(end 77.75 135.45)
+		(start 203.65 99.85)
+		(end 203.6 99.8)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "ac7cf2b1-d9c8-403a-ab80-cf078fd7093b")
 	)
 	(segment
-		(start 37.8 146)
-		(end 43.93 146)
+		(start 163.65 110.35)
+		(end 169.78 110.35)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "2d5aca2d-550e-45ab-be22-d8e7a1f1b38c")
 	)
 	(segment
-		(start 59.17 141.47)
-		(end 56.7 139)
+		(start 185.02 105.82)
+		(end 182.55 103.35)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "0fc92bc5-5db8-42bf-ab84-7cd715185263")
 	)
 	(segment
-		(start 59.17 146)
-		(end 64.35 146)
+		(start 185.02 110.35)
+		(end 190.2 110.35)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "6d0ad753-d999-44a8-855a-e3051f79be1e")
 	)
 	(segment
-		(start 59.27 146.1)
-		(end 59.17 146)
+		(start 185.12 110.45)
+		(end 185.02 110.35)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "8bce6193-3ccf-4f4e-b551-d39f330f4836")
 	)
 	(segment
-		(start 59.17 146)
-		(end 59.17 141.47)
+		(start 185.02 110.35)
+		(end 185.02 105.82)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "a1ebb99a-d742-40c9-b28e-95e9deaca4f5")
 	)
 	(segment
-		(start 59.27 154.4)
-		(end 59.27 146.1)
+		(start 185.12 118.75)
+		(end 185.12 110.45)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "fba2a6a4-20e3-4f78-99c0-f83889b4fd53")
 	)
 	(segment
-		(start 64.35 146)
-		(end 64.45 146.1)
+		(start 190.2 110.35)
+		(end 190.3 110.45)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "fd7e1e00-46ef-4fcc-bf78-9330305cc79c")
 	)
 	(segment
-		(start 66.15 146.1)
-		(end 66.1 146.15)
+		(start 192 110.45)
+		(end 191.95 110.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "4c89db67-dcaf-4796-add0-54d689848fb9")
 	)
 	(segment
-		(start 66.15 146.1)
-		(end 66.15 153.9)
+		(start 192 110.45)
+		(end 192 118.25)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "63c301a8-1f65-4779-b1bf-308a55b8fd9e")
 	)
 	(segment
-		(start 66.1 146.15)
-		(end 66.1 146.9)
+		(start 191.95 110.5)
+		(end 191.95 111.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "75a8bc92-0413-4d95-b2dc-acaa39db940e")
 	)
 	(segment
-		(start 65.5 162.92)
-		(end 65.68 163.1)
+		(start 191.35 127.27)
+		(end 191.53 127.45)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "9733c2ad-6970-4b8b-ac59-cfc5245d783c")
 	)
 	(segment
-		(start 65.5 154.55)
-		(end 65.5 162.92)
+		(start 191.35 118.9)
+		(end 191.35 127.27)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "9b85e6c9-70b1-42d7-8b9a-16384cd6d4c7")
 	)
 	(segment
-		(start 66.15 153.9)
-		(end 65.5 154.55)
+		(start 192 118.25)
+		(end 191.35 118.9)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 77)
