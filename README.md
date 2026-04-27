@@ -30,7 +30,7 @@ Cada canal incorpora:
 ##  Diagrama de blocs
 
 <p align="center">
-  <img width="788" alt="Diagrama de blocs" src="https://github.com/user-attachments/assets/dea45409-d07e-40ad-a383-354cab6ba3d9">
+  <img width="1097" height="613" alt="image" src="https://github.com/user-attachments/assets/7cd6f459-77a8-4090-bef5-ecb2085d7b2a" />
 </p>
 
 ---
