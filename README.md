@@ -1,86 +1,188 @@
 # Projecte Llums Cotxe
 
-> **Autors:** Marcel Lleonart, Eric Ruiz, Josep Leyva  
-> **Versió:** 1.0  
+> **Autors:** Marcel Lleonart, Eric Ruiz, Josep Leyva
+> **Versió:** 1.1
+> **Eina de disseny:** KiCad 9.0 o superior
 
 ---
 
-## Objectiu
+##  Objectiu
 
-> Desenvolupar un **sistema de control de llums per a un automòbil a escala de projecte**, amb control mitjançant microcontrolador. El sistema inclou:  
-> - Llums diürnes (DRL)  
-> - Intermitents esquerra i dreta  
-> - Llums de creuament  
-> - Llums de carretera  
->  
-> Cada mòdul inclou el **driver de potència** amb MOSFET, protecció amb fusible i control del microcontrolador via GPIOs. També s’implementa la **detecció de llum ambiental** per activar automàticament les llums diürnes.
+Desenvolupar un **sistema de control de llums per a un automòbil a escala de projecte**, gestionat mitjançant un microcontrolador. El sistema integra els principals subsistemes d'il·luminació d'un vehicle i permet el seu control manual i automàtic.
 
----
+### Funcions principals
 
-## Diagrama de blocs
-<img width="788" height="442" alt="Diagrama de blocs" src="https://github.com/user-attachments/assets/dea45409-d07e-40ad-a383-354cab6ba3d9" />
+* Llums diürnes (**DRL**)
+* Intermitents esquerre i dret
+* Llums de creuament
+* Llums de carretera
+* Activació automàtica segons la llum ambiental
 
----
+Cada canal incorpora:
 
-### Descripció / Funcionalitat de cada bloc
-
-- **Microcontrolador PIC18F26Q83**: Coordina tots els mòduls de llums i gestiona les comunicacions amb els sensors i altres mòduls via bus CAN, I2C o USART.  
-- **Driver DRL**: Controla les llums diürnes amb AO3400A com a interruptor de baixa latència. Activat automàticament pel sensor de llum.  
-- **Driver Intermitents**: Controla intermitents esquerra i dreta amb AO3400A, inclou lògica de parpelleig al microcontrolador.  
-- **Driver Llums de Cruce**: Control ON/OFF per a llums de creuament, amb protecció per corrent.  
-- **Driver Llums de Carretera**: Control ON/OFF per a llums de carretera, amb fusible adequat segons tipus de llum (LED o halògena).  
-- **Sensor de llum digital**: Detecta intensitat lumínica per activar DRL automàticament.  
+* Etapa de potència amb MOSFET
+* Protecció individual amb fusible
+* Resistència de gate i pull-down
+* Control directe des del microcontrolador mitjançant GPIO
 
 ---
 
-## Requisits / Especificacions
+##  Diagrama de blocs
 
-- Alimentació: **12V** per llums, **5V regulada** per microcontrolador.  
-- Microcontrolador: **PIC18F26Q83-I/SS**  
-- Comunicacions: CAN, I2C, USART per depuració i control.  
-- Protecció: Fusible en cada línia de llum i pull-down/serie resistències en gates de MOSFET.  
-- Tipus de MOSFET: AO3400A (logic-level, canal N).  
-- Senyals de control: GPIO 3.3V per microcontrolador.  
+<p align="center">
+  <img width="788" alt="Diagrama de blocs" src="https://github.com/user-attachments/assets/dea45409-d07e-40ad-a383-354cab6ba3d9">
+</p>
 
 ---
 
-## Components
+##  Descripció funcional dels blocs
 
-| Descripció | Ref | Package | Datasheet | Proveïdor | Preu | Unitats |
-| --- | --- | --- | --- | --- | --- | --- |
-| Microcontrolador | PIC18F26Q83-I/SS | SOIC-28 | [Datasheet](https://www.mouser.es/datasheet/2/268/PIC18F27_47_57Q83_Preliminary_Data_Sheet_40002265B-2887591.pdf) | [Mouser](https://www.mouser.es/c/?q=PIC18F27Q83-I%2FSO) | 2,17€ | 1x |
-| XTAL-Ressonador | CSTCR7M99G53-R0 | SMD | [Datasheet](https://www.mouser.es/datasheet/2/281/p16e-522700.pdf) | [Mouser](https://www.mouser.es/ProductDetail/Murata-Electronics/CSTCR7M99G53-R0?qs=Zd9RUO93%2Fo7cnwzsujIkpA%3D%3D) | 0,27€ | 1x |
-| MOSFET N-channel | AO3400A | SOT-23 | [Datasheet](https://www.diodes.com/assets/Datasheets/AO3400A.pdf) | [Digi-Key](https://www.digikey.com/en/products/detail/diodes-incorporated/AO3400A/1426866) | 0,55€ | 5x |
-| Fusible | F1A/250V | SMD/PCB | - | Local | 0,15€ | 5x |
-| Resistència 100Ω | R-100 | SMD | - | Local | 0,02€ | 10x |
-| Resistència 10kΩ | R-10k | SMD | - | Local | 0,02€ | 10x |
-| Lamp 12V | LED/Bombilla | - | - | Local | 1,50€ | 4x |
-| Sensor de llum | TSL2561 | SMD/I2C | [Datasheet](https://www.adafruit.com/product/439) | [Adafruit](https://www.adafruit.com/) | 5,00€ | 1x |
+###  Microcontrolador – PIC18F26Q83
+
+Coordina tots els subsistemes de llum, processa les entrades dels sensors i gestiona les comunicacions externes. Disposa d'interfícies **CAN**, **I2C** i **USART** per a expansió, diagnosi i depuració.
+
+###  Driver de llums diürnes (DRL)
+
+Controla l'encesa automàtica de les llums diürnes mitjançant un MOSFET **AO3400A**. L'activació es realitza segons la lectura del sensor de llum ambiental.
+
+###  Driver d'intermitents
+
+Gestiona els intermitents esquerre i dret. El parpelleig es genera per programari utilitzant temporitzadors interns del microcontrolador.
+
+###  Driver de llums de creuament
+
+Permet el control ON/OFF de les llums de creuament amb protecció elèctrica individual.
+
+###  Driver de llums de carretera
+
+Controla les llums de carretera amb protecció mitjançant fusible. Compatible amb càrregues LED o halògenes de baixa potència.
+
+### Sensor de llum ambiental
+
+Mesura la il·luminació exterior i permet l'activació automàtica de les llums diürnes o altres funcions programades.
 
 ---
 
-### Eines
+##  Especificacions tècniques
 
-- KiCad 9.0 o superior per a esquemàtic i PCB  
+| Paràmetre              | Valor                                               |
+| ---------------------- | --------------------------------------------------- |
+| Alimentació principal  | 12 Vcc                                              |
+| Alimentació lògica     | 5 V regulats                                        |
+| Microcontrolador       | PIC18F26Q83-I/SS                                    |
+| Comunicacions          | CAN, I2C, USART                                     |
+| MOSFET de potència     | AO3400A (canal N, logic-level)                      |
+| Nivell de control GPIO | 3.3 V / 5 V compatible                              |
+| Protecció              | Fusible per canal + resistència de gate + pull-down |
 
-### Configuració
+---
 
-- GPIO assignats:  
-  - `DRL_CTRL` → Llums diürnes  
-  - `TURN_LEFT_CTRL` → Intermitent esquerre  
-  - `TURN_RIGHT_CTRL` → Intermitent dret  
-  - `LOW_BEAM_CTRL` → Llums de creuament  
-  - `HI_BEAM_CTRL` → Llums de carretera
-  - `LIGHT_INT` → Interupcio sensor llum
-- Temporitzadors interns per parpelleig dels intermitents  
-- I2C per sensor de llum  
-- USART per depuració  
+##  Assignació de GPIO
 
-### Funcionalitats
+| Senyal            | Funció                         |
+| ----------------- | ------------------------------ |
+| `DRL_CTRL`        | Control de llums diürnes       |
+| `TURN_LEFT_CTRL`  | Intermitent esquerre           |
+| `TURN_RIGHT_CTRL` | Intermitent dret               |
+| `LOW_BEAM_CTRL`   | Llums de creuament             |
+| `HI_BEAM_CTRL`    | Llums de carretera             |
+| `LIGHT_INT`       | Interrupció del sensor de llum |
 
-- Encès automàtic DRL segons sensor de llum  
-- Parpelleig d’intermitents a 1 Hz  
-- Control ON/OFF llums creuament i carretera  
-- Protecció de corrent amb fusibles i resistències de gate  
+---
+
+##  Funcionalitats implementades
+
+* Activació automàtica de les DRL segons la llum ambiental
+* Parpelleig d'intermitents a **1 Hz**
+* Control independent de llums de creuament i carretera
+* Protecció individual de cada sortida
+* Interfície de depuració per USART
+* Arquitectura preparada per integració en xarxa CAN
+
+---
+
+##  Llista de materials (BOM)
+
+| Component                     | Valor / Model              | Encapsulat         | Quantitat |
+| ----------------------------- | -------------------------- | ------------------ | --------: |
+| Microcontrolador              | PIC18F26Q83-I/SS           | SOIC-28            |         1 |
+| MOSFET canal N                | AO3400A                    | SOT-23             |         8 |
+| Regulador lineal              | LM1117-5.0                 | TO-252             |         1 |
+| Resonador / Cristall          | 8 MHz                      | HC-49 o equivalent |         1 |
+| Inductor                      | 33 µH                      | Radial             |         1 |
+| Díodes de protecció           | Rectificador               | DO-201AD           |         9 |
+| Condensadors de desacoblament | 100 nF                     | 0805               |         7 |
+| Condensadors                  | 10 µF                      | 0805               |         3 |
+| Condensador electrolític      | 680 µF                     | Radial             |         1 |
+| Condensadors                  | 33 pF                      | 0805               |         2 |
+| Condensador                   | 4.7 nF                     | 0805               |         1 |
+| Resistències                  | 100 Ω                      | 0805               |         8 |
+| Resistències                  | 10 kΩ                      | 0805               |  Diverses |
+| Borns de connexió             | 2 vies, pas 5.08 mm        | Terminal Block     |        11 |
+| Connector ICSP                | Programació PIC            | 2x03, 2.54 mm      |         1 |
+| Interruptors SPDT             | Selector                   | Through-hole       |         5 |
+| Polsador                      | Reset / funció             | 6 mm               |         1 |
+| Sensor de llum                | TSL2561 (o equivalent I2C) | SMD                |         1 |
+
+> **Nota:** La quantitat exacta d'alguns components passius pot variar segons la revisió del disseny i les opcions de muntatge.
+
+---
+
+##  Programació i configuració
+
+### Perifèrics utilitzats
+
+* GPIO digitals per al control de sortides
+* Temporitzadors interns per al parpelleig
+* I2C per al sensor de llum
+* USART per a depuració i diagnosi
+* CAN per a futures ampliacions
+
+### Seqüència de funcionament
+
+1. Inicialització del microcontrolador i perifèrics.
+2. Lectura del sensor de llum ambiental.
+3. Activació automàtica de DRL si escau.
+4. Gestió d'intermitents amb temporització periòdica.
+5. Control independent de llums de creuament i carretera.
+6. Supervisió contínua de les entrades i estats del sistema.
+
+---
+
+##  Proteccions incorporades
+
+* Fusible independent per a cada sortida de llum
+* Resistència sèrie a la gate dels MOSFET
+* Resistència pull-down per evitar activacions espúries
+* Filtrat de l'alimentació mitjançant condensadors de desacoblament
+* Protecció davant transitoris de commutació
+
+---
+
+##  Aplicacions
+
+Aquest projecte és ideal per a:
+
+* Maquetes i prototips d'automoció
+* Sistemes d'il·luminació intel·ligents
+* Pràctiques de microcontroladors i electrònica de potència
+* Desenvolupament de mòduls electrònics per automoció
+
+---
+
+##  Estat del projecte
+
+**Versió actual:** 1.5
+
+* ✅ Esquemàtic completat
+* 🔄 PCB en desenvolupament i validació
+* 💻 Firmware base en implementació
+* ✔️ BOM inicial verificada
+
+---
+
+## 📄 Llicència
+
+Aquest projecte ha estat desenvolupat amb finalitats educatives i acadèmiques.
 
 ---
