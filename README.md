@@ -92,9 +92,7 @@ Mesura la il·luminació exterior i permet l'activació automàtica de les llums
 ##  Funcionalitats implementades
 
 * Activació automàtica de les DRL segons la llum ambiental
-* Parpelleig d'intermitents a **1 Hz**
 * Control independent de llums de creuament i carretera
-* Protecció individual de cada sortida
 * Interfície de depuració per USART
 * Arquitectura preparada per integració en xarxa CAN
 
@@ -132,25 +130,14 @@ Mesura la il·luminació exterior i permet l'activació automàtica de les llums
 ### Perifèrics utilitzats
 
 * GPIO digitals per al control de sortides
-* Temporitzadors interns per al parpelleig
 * I2C per al sensor de llum
 * USART per a depuració i diagnosi
 * CAN per a futures ampliacions
-
-### Seqüència de funcionament
-
-1. Inicialització del microcontrolador i perifèrics.
-2. Lectura del sensor de llum ambiental.
-3. Activació automàtica de DRL si escau.
-4. Gestió d'intermitents amb temporització periòdica.
-5. Control independent de llums de creuament i carretera.
-6. Supervisió contínua de les entrades i estats del sistema.
 
 ---
 
 ##  Proteccions incorporades
 
-* Fusible independent per a cada sortida de llum
 * Resistència sèrie a la gate dels MOSFET
 * Resistència pull-down per evitar activacions espúries
 * Filtrat de l'alimentació mitjançant condensadors de desacoblament
@@ -175,12 +162,11 @@ Aquest projecte és ideal per a:
 
 * ✅ Esquemàtic completat
 * 🔄 PCB en desenvolupament i validació
-* 💻 Firmware base en implementació
 * ✔️ BOM inicial verificada
 
 ---
 
-## 📄 Llicència
+##  Llicència
 
 Aquest projecte ha estat desenvolupat amb finalitats educatives i acadèmiques.
 
