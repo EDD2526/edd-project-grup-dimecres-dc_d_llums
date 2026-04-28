@@ -1,0 +1,13 @@
+Aviso: Corrección del ancho restringida. El valor de la corrección del ancho debe encontrarse en el rango de [-0,149999 mm; -0,000002 mm] para las reglas de diseño actuales.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-F_Cu.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-B_Cu.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-F_Paste.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-B_Paste.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-F_Mask.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-B_Mask.gbr'.
+Plotted to 'C:\Users\User\Desktop\Grup_D_Llums-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\User\Desktop\Grup_D_Llums-job.gbrjob'.
+Info: Done.
+Info: Done.
