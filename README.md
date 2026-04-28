@@ -72,7 +72,7 @@ Mesura la il·luminació exterior i permet l'activació automàtica de les llums
 | Comunicacions          | CAN, I2C, USART                                     |
 | MOSFET de potència     | AO3400A (canal N, logic-level)                      |
 | Nivell de control GPIO | 3.3 V / 5 V compatible                              |
-| Protecció              | Fusible per canal + resistència de gate + pull-down |
+| Protecció              |resistència de gate + pull-down |
 
 ---
 
