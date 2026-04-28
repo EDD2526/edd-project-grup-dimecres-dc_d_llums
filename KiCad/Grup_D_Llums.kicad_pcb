@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "edd-project-grup-dimecres-dc_d_llums")
+		(date "2026-04-27")
+		(rev "28/04/2026")
+		(company "Marcel Lleonart, Eric Ruiz, Josep Leyva")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)

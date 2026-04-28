@@ -7,6 +7,8 @@
 	(title_block
 		(title "POTENCIA")
 		(date "2026-03-16")
+		(rev "28/04/2026")
+		(company "Marcel Lleonart, Eric Ruiz, Josep Leyva")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
