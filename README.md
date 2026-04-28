@@ -21,7 +21,6 @@ Desenvolupar un **sistema de control de llums per a un automòbil a escala de pr
 Cada canal incorpora:
 
 * Etapa de potència amb MOSFET
-* Protecció individual amb fusible
 * Resistència de gate i pull-down
 * Control directe des del microcontrolador mitjançant GPIO
 
