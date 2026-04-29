@@ -67,12 +67,12 @@ Mesura la il·luminació exterior i permet l'activació automàtica de les llums
 | Paràmetre              | Valor                                               |
 | ---------------------- | --------------------------------------------------- |
 | Alimentació principal  | 12 Vcc                                              |
-| Alimentació lògica     | 5 V regulats                                        |
-| Microcontrolador       | PIC18F26Q83-I/SS                                    |
+| Alimentació lògica     | 3.3 V regulats                                      |
+| Microcontrolador       | Pic24hj128gp502                                     |
 | Comunicacions          | CAN, I2C, USART                                     |
 | MOSFET de potència     | AO3400A (canal N, logic-level)                      |
-| Nivell de control GPIO | 3.3 V / 5 V compatible                              |
-| Protecció              |resistència de gate + pull-down |
+| Nivell de control GPIO | 3.3 V                                               |
+| Protecció              |resistència de gate + pull-down                      |
 
 ---
 
@@ -102,7 +102,7 @@ Mesura la il·luminació exterior i permet l'activació automàtica de les llums
 
 | Component                     | Valor / Model              | Encapsulat         | Quantitat |
 | ----------------------------- | -------------------------- | ------------------ | --------: |
-| Microcontrolador              | PIC18F26Q83-I/SS           | SOIC-28            |         1 |
+| Microcontrolador              | Pic24hj128gp502            | SOIC-28            |         1 |
 | MOSFET canal N                | AO3400A                    | SOT-23             |         8 |
 | Regulador lineal              | LM1117-5.0                 | TO-252             |         1 |
 | Resonador / Cristall          | 8 MHz                      | HC-49 o equivalent |         1 |
